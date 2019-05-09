@@ -15,9 +15,6 @@ public class SQLInjection {
 			Statement stmnt = conn.createStatement ();
 			ResultSet rs = stmnt.executeQuery (query);
 			while ( rs.next() ) {
-				// aaa
-				// do nothing
-				// bbb
 			}
 			rs.close ();
 			stmnt.close ();
